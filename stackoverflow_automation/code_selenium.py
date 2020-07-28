@@ -15,6 +15,15 @@ driver.get('https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2
 
 driver.maximize_window()
 
-mail="" #enter your email_id
+#mail="" #enter your email_id
+#passw="" #enter password
+
+#key user email
 email=driver.find_element_by_name('email')
 email.send_keys(mail)
+
+#key user password
+password=driver.find_element_by_name('password')
+password.send_keys(passw)
+
+
