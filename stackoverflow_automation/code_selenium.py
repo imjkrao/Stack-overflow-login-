@@ -22,7 +22,7 @@ def stack_overflow_login(mail, passw):
     # passw =""enter password
     
     # key user email
-    email=driver.find_element_by_name('email')
+    email = driver.find_element_by_name('email')
     email.send_keys(mail)
     
     # key user password

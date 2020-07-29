@@ -27,3 +27,11 @@ Click on below link to learn to open up `task scheduler`
 
 https://www.isunshare.com/windows-8/open-windows-8-8.1-task-scheduler.html
 
+Once you open task scheduler, Click on **Task Scheduler Library** and press option *Create Basic Task* to create 
+task of running python script everyday. Or you can import the task `**stackoverflow_login_schedulerTask**`  from the github to your local task scheduler library.
+
+Click on the below link to create your own basic task. 
+
+https://www.weirdgeek.com/2019/04/automating-python-script-to-run-at-specific-time-every-day/
+
+
