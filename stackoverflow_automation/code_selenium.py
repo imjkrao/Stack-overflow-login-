@@ -13,7 +13,7 @@ def stack_overflow_login(mail, passw):
     options.add_argument('--ignore-certificate-errors')
     options.add_argument("--test-type")
     options.add_experimental_option("detach", True)
-    driver = webdriver.Chrome(chrome_options=options)
+    driver = webdriver.Chrome(chrome_options=options,executable_path="E:\MscDA-2019\Stack-overflow-login-\stackoverflow_automation\chromedriver.exe")
     driver.get('https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f')
     
     driver.maximize_window()
@@ -38,7 +38,7 @@ def stack_overflow_login(mail, passw):
 
 def main():
     print("1")
-    stack_overflow_login('123@mail.com', 'passcode')
+    stack_overflow_login('123@mail.com', 'pass code')
     print('done')
     
 
