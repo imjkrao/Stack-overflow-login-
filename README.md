@@ -1,4 +1,4 @@
-#Automation of Stack overflow login
+# Automation of Stack overflow login
 
 ## Introduction
 This automation task is perfomed in two stages. One is script to login to web page using required credential.
