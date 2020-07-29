@@ -4,9 +4,10 @@ Created on Tue Jul 28 10:21:25 2020
 
 @author: jeevan
 """
+from selenium import webdriver
 
 def stackoverflow_Login(mail,passw):
-    from selenium import webdriver
+    
     
     options = webdriver.ChromeOptions()
     options.add_argument('--ignore-certificate-errors')
@@ -31,4 +32,12 @@ def stackoverflow_Login(mail,passw):
     login=driver.find_element_by_name('submit-button')
     driver.implicitly_wait(500)
     login.click()
+
+def main():
+    print("1")
+    stackoverflow_Login('enter email', 'enter pass')
+    print('done')
+    
+if __name__ == "__main__":
+    main()
 
