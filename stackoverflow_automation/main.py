@@ -7,5 +7,5 @@ Created on Tue Jul 28 11:24:21 2020
 
 import code_selenium
 
-code_selenium.stackoverflow_Login('enter email', 'enter pass')
+code_selenium.stack_overflow_Login('enter email', 'enter pass')
 
